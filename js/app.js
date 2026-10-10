@@ -57,7 +57,7 @@ function renderCharacters(charactersData){
         //Creamos la tarjeta (Card)
         const cardHtml = `
             <article class="data-card">
-                <img src"${character.image}" alt="${character.name}">
+                <img src="${character.image}" alt="${character.name}">
                 <div class="card-info">
                     <h2>${character.name}</h2>
                     <p class="info-label">Status: <span style="color ${statusColor}">${character.status}</span></p>
